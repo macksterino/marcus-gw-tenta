@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 export const PaginationWrapper = styled.div`
     grid-column: 2 / span 12;
-    padding: 3rem 0:
+    padding: 3rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,8 @@ export const PaginationWrapper = styled.div`
         color: ${props => props.isFirst ? props.theme.colors.dark3 : props.theme.colors.dark1};
         pointer-events: ${props => props.isFirst ? "none" : "auto"};
         cursor: ${props => props.isFirst ? "default" : "pointer"};
+        align-items: center;
+        justify-content: center;
     }
 
     a:nth-child(2) {
@@ -33,7 +35,8 @@ export const PaginationElement = styled(props => <Link {...props} />)`
     text-decoration: none;
     margin: 0 2rem;
 
-    &:hover, &:focus {
+    &:hover, 
+    &:focus {
         text-decoration: underline;
     }
 `
