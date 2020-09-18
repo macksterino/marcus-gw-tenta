@@ -7,6 +7,7 @@ export const ContentWrapper = styled.main`
     padding: ${props => `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
     box-shadow: ${props => props.theme.shadows.shadow1};
     z-index: 10;
+    border: 1px solid gray;
 
     @media ${props => props.theme.breakpoints.tablet} {
         grid-column: 2 / span 6;
