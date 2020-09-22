@@ -6,11 +6,15 @@ export const NavWrapper = styled.nav`
     display: flex;
     align-items: center;
 
-    & img {
-        height: 30px;
+    & a {
+        text-decoration: none;
     }
 
     @media ${props => props.theme.breakpoints.tablet} {
         grid-column: 2 / span 6;
+    }
+
+    @media ${props => props.theme.breakpoints.mobile} {
+        grid-column: 2 / span 12;
     }
 `

@@ -103,3 +103,20 @@ export const H2 = styled.h2`
     text-align: ${props => props.textAlign ? props.textAlign : "left"};
     margin: ${props => props.margin ? props.margin : 0};
 `
+
+export const H3 = styled.h3`
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: ${props => {
+        switch(props.color) {
+            case "dark1":
+                return props.theme.colors.dark1
+            default:
+                return props.theme.colors.dark1
+        }
+    }};
+    font-weight: 400;
+    text-align: ${props => props.textAlign ? props.textAlign : "left"};
+    text-transform: uppercase;
+    margin: ${props => props.margin ? props.margin : 0};
+`

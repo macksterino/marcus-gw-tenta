@@ -1,16 +1,13 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.footer`
-    grid-column: 2 / span 12;
+    grid-column: 1 / span 14;
     min-height: 11.25rem;
-    padding: 3rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-    @media ${props => props.theme.breakpoints.tablet} {
-        grid-column: 2 / span 6;
-    }
+    border: 1px solid ${props => props.theme.colors.dark1};
 `
 
 export const FooterSocialWrapper = styled.div`
@@ -28,6 +25,10 @@ export const FooterSocialWrapper = styled.div`
 export const FooterSocialIcons = styled.div`
     flex: 0 0 100%;
     margin-bottom: 2rem;
+
+    h2 {
+        padding: 2rem;
+    }
 
     img {
         height: 22px;

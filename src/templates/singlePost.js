@@ -15,7 +15,7 @@ const singlePost = ({data}) => {
             image={seoImage}
             description={data.mdx.frontmatter.excerpt}
             />
-            <FeatureImage fixed={featureImage} />
+            <FeatureImage fixed={featureImage} alt={data.mdx.frontmatter.featureImage.originalName} />
             <Post>
                 <H1 margin="0 0 2rem 0">{data.mdx.frontmatter.title}</H1>
                 <MDXRenderer>{data.mdx.body}</MDXRenderer>

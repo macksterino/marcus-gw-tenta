@@ -5,6 +5,7 @@ import {
     FooterSocialWrapper, 
     FooterSocialIcons,
     P,
+    H2,
 } from "../elements"
 
 export const Footer = () => {
@@ -29,6 +30,9 @@ export const Footer = () => {
     return <FooterWrapper>
         <FooterSocialWrapper>
             <FooterSocialIcons>
+                <H2 textAlign="center">
+                Marcus Garpehäll Wiklund
+                </H2>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                     <img src={data.github.publicURL} alt="Github logo" />
                 </a>
