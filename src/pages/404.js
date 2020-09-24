@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Container, Content, FeatureImage } from "../components"
-import { H1 } from "../elements"
+import { H1, H3, ErrorWrapper } from "../elements"
 
 const notFound = ({ data }) => {
     const featureImage = data.imageSharp.fixed
@@ -9,11 +9,17 @@ const notFound = ({ data }) => {
     return (
         <Container>
             <FeatureImage fixed={featureImage} />
-            <Content>
+                <ErrorWrapper>
                 <H1 textAlign="center" margin="0 0 1rem 0">
-                    Oopsies.. the content you were looking for could not be found.
+                    404 
                 </H1>
-            </Content>
+                <H3 textAlign="center" margin="0 0 1rem 0">
+                    Page not found
+                </H3>
+                <H3 textAlign="center" margin="2rem 0 1rem 0">
+                    The page you are looking for does not exist or an error occured.
+                </H3>
+                </ErrorWrapper>
         </Container>
     )
 }

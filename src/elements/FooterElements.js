@@ -7,7 +7,7 @@ export const FooterWrapper = styled.footer`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-top: 1px solid ${props => props.theme.colors.dark1};
+    border-top: 1px solid ${props => props.theme.colors.dark};
 `
 
 export const FooterSocialWrapper = styled.div`

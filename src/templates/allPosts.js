@@ -24,14 +24,6 @@ const allPosts = ({pageContext, data}) => {
             <SEO />
             <FeatureImage />
             <Content>
-                {/*
-                 <H1 textAlign="center" margin="0 0 1rem 0">
-                    Testing1
-                </H1>
-                <P color="dark2" textAlign="center">
-                    Lorem Ipsum
-                </P>
-                */}
                 {posts.map(post => (
                     <ContentCard 
                         key={post.node.frontmatter.slug}

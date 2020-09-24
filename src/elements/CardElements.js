@@ -7,7 +7,7 @@ export const CardWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     box-shadow: ${props => props.theme.shadows.shadow1};
-    border: 1px solid ${props => props.theme.colors.dark3};
+    border: 1px solid ${props => props.theme.colors.dark};
     width: 80%;
 
     img {

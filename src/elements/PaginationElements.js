@@ -8,10 +8,11 @@ export const PaginationWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: ${props => props.theme.colors.light2};
+    background-color: ${props => props.theme.colors.light};
+    color: ${props => props.theme.colors.dark};
 
     a:nth-child(1) {
-        color: ${props => props.isFirst ? props.theme.colors.dark3 : props.theme.colors.dark1};
+        color: ${props => props.isFirst ? props.theme.colors.grey : props.theme.colors.dark};
         pointer-events: ${props => props.isFirst ? "none" : "auto"};
         cursor: ${props => props.isFirst ? "default" : "pointer"};
         align-items: center;
@@ -19,7 +20,7 @@ export const PaginationWrapper = styled.div`
     }
 
     a:nth-child(2) {
-        color: ${props => props.isLast ? props.theme.colors.dark3 : props.theme.colors.dark1};
+        color: ${props => props.isLast ? props.theme.colors.grey : props.theme.colors.dark};
         pointer-events: ${props => props.isLast ? "none" : "auto"};
         cursor: ${props => props.isLast ? "default" : "pointer"};
     }

@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const PostWrapper = styled.main`
     grid-column: 4 / span 8;
     grid-row: 3 / span 5;
-    background-color: ${props => props.theme.colors.light2};
+    background-color: ${props => props.theme.colors.light};
     margin: 1rem 1rem;
     padding: ${props => `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
     box-shadow: ${props => props.theme.shadows.shadow1};
@@ -15,7 +15,7 @@ export const PostWrapper = styled.main`
     h4,
     h5,
     h6 {
-        color: ${props => props.theme.colors.dark1};
+        color: ${props => props.theme.colors.dark};
     }
 
     h1:not(:first-child),
@@ -68,12 +68,12 @@ export const PostWrapper = styled.main`
         font-size: 1.125rem;
         line-height: 1.875rem;
         font-weight: 400;
-        color: ${props => props.theme.colors.dark2};
+        color: ${props => props.theme.colors.dark};
         margin-top: 2rem;
     }
 
     a {
-        color: ${props => props.theme.colors.main1};
+        color: ${props => props.theme.colors.dark};
         text-decoration: underline;
     }
 
@@ -100,7 +100,7 @@ export const PostWrapper = styled.main`
 
     ul,
     ol {
-        color: ${props => props.theme.colors.dark2};
+        color: ${props => props.theme.colors.dark};
         margin: 1rem 0 1rem 2rem;
     }
 
@@ -112,15 +112,15 @@ export const PostWrapper = styled.main`
         font-family: ${props => props.theme.fonts.code};
         font-size: 1rem;
         line-height: 1.875rem;
-        color: ${props => props.theme.colors.light1};
-        background-color: ${props => props.theme.colors.dark3};
+        color: ${props => props.theme.colors.light};
+        background-color: ${props => props.theme.colors.dark};
         padding: 0 0.3rem;
     }
 
     hr {
         border: 0;
         height: 1px;
-        background: ${props => props.theme.colors.dark1};
+        background: ${props => props.theme.colors.dark};
         opacity: 0.1;
         margin-top: 2rem;
     }
@@ -141,7 +141,7 @@ export const PostWrapper = styled.main`
     table,
     th,
     td {
-        border: 1px solid ${props => props.theme.colors.dark3};
+        border: 1px solid ${props => props.theme.colors.dark};
     }
 
     th,
