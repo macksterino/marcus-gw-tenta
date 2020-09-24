@@ -96,4 +96,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
+## 🎓 Tenta
+- **Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser**
+
+Skriv förklaring här
+
 <!-- AUTO-GENERATED-CONTENT:END -->
