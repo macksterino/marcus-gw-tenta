@@ -33,16 +33,16 @@ export const Footer = () => {
                 <H2 textAlign="center">
                 Marcus Garpehäll Wiklund
                 </H2>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/macksterino" target="_blank" rel="noopener noreferrer">
                     <img src={data.github.publicURL} alt="Github logo" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/marcus-garpeh%C3%A4ll-wiklund-9b83121a1/" target="_blank" rel="noopener noreferrer">
                     <img src={data.linkedin.publicURL} alt="LinkedIn logo" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/marcusgw" target="_blank" rel="noopener noreferrer">
                     <img src={data.instagram.publicURL} alt="Instagram logo" />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/m4ckstar" target="_blank" rel="noopener noreferrer">
                     <img src={data.twitter.publicURL} alt="Twitter logo" />
                 </a>
             </FooterSocialIcons>

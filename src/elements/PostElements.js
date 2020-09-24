@@ -150,8 +150,14 @@ export const PostWrapper = styled.main`
         padding: 0.5rem;
     }
 
-    @media ${props => props.theme.breakpoints.mobile} {
+    @media ${props => props.theme.breakpoints.tablet} {
         grid-column: 1 / span 14;
-        padding: ${props => `${props.theme.spacings.medium} ${props.theme.spacings.small}`};
+        padding: ${props => `${props.theme.spacings.medium} ${props.theme.spacings.xSmall}`};
+    }
+
+    @media ${props => props.theme.breakpoints.mobile} {
+        width: 100%;
+        margin: auto;
+        padding: ${props => `${props.theme.spacings.medium} ${props.theme.spacings.xSmall}`};
     }
 `

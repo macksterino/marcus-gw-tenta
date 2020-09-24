@@ -16,7 +16,8 @@ export const CardWrapper = styled.div`
     }
 
     @media ${props => props.theme.breakpoints.tablet} {
-        width: 40%;
+        width: 50%;
+        margin: 2rem !important;
 
         .gatsby-image-wrapper {
             width: 100% !important;
@@ -26,7 +27,7 @@ export const CardWrapper = styled.div`
 
     @media ${props => props.theme.breakpoints.mobile} {
         width: 90%;
-        margin: 1rem;
+        margin: 1rem !important;
 
         .gatsby-image-wrapper {
             width: 100% !important;

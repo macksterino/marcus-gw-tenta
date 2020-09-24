@@ -8,6 +8,7 @@ export const ContentWrapper = styled.main`
     z-index: 10;
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     @media ${props => props.theme.breakpoints.mobile} {
         padding: ${props => `${props.theme.spacings.small} ${props.theme.spacings.xSmall}`};
