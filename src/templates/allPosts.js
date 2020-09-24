@@ -8,7 +8,6 @@ import {
     Pagination,
     SEO,
 } from "../components"
-import { H1, P } from "../elements"
 
 const allPosts = ({pageContext, data}) => {
     const {currentPage, numPages} = pageContext

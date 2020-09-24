@@ -7,6 +7,7 @@ export const PostWrapper = styled.main`
     margin: 1rem 1rem;
     padding: ${props => `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
     box-shadow: ${props => props.theme.shadows.shadow1};
+    border: 0.5px solid ${props => props.theme.colors.dark};
     z-index: 10;
 
     h1,

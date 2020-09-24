@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Container, Content, FeatureImage } from "../components"
+import { Container, FeatureImage } from "../components"
 import { H1, H3, ErrorWrapper } from "../elements"
 
 const notFound = ({ data }) => {
