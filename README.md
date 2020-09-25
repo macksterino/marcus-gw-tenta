@@ -24,7 +24,7 @@
     ```
 2. npm install
 
-1.  **Start developing.**
+**Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
