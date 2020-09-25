@@ -8,7 +8,7 @@
 - Node.JS
 - Git Bash (if using Git)
 
-**Using the Gatsby CLI to create a new site, specifying the hello-world starter:**
+## Using the Gatsby CLI to create a new site, specifying the hello-world starter:
 1. npm install -g gatsby-cli
 2. 
     ```shell
@@ -16,7 +16,7 @@
     gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
     ```
 
-**Using the Git CLI to clone a site, specifying my project:**
+## Using the Git CLI to clone a site, specifying my project:
 1. 
     ```shell
     # running my project
@@ -24,7 +24,7 @@
     ```
 2. npm install
 
-**Start developing.**
+## Start developing
 
     Navigate into your new site’s directory and start it up.
 
