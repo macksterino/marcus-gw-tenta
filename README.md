@@ -52,6 +52,7 @@ npm run develop
 Till en början var alla webbsidor statiska och för att göra en ändring behövde man gå in direkt i HTML-filen och redigera.
 Dynamiska webbsidor innebär sidor som innehåller program- eller skriptkod som webbläsaren inte förstår. En sådan sida måste
 därför köras på servern så att webbläsaren förstår.
+
 Källa: *[Dynamiska webbsidor, LIU](https://www.diva-portal.org/smash/get/diva2:19374/FULLTEXT01.pdf)*
 
 I vår senaste kurs skapade vi en blogg med React.JS samt MDX.
@@ -60,12 +61,14 @@ Vi använde oss utav förskapade MDX artiklar. Men om vi visar förskapade artik
 Eftersom vi låter vårat skript generera artiklarna på sidan, där vi också kan specifiera hur många artiklar som syns per sida och
 exakt vilken information vi vill visa på sidan, så är det en dynamisk webbsida. En statisk webbsida hade varit all vår information i MDX filen
 direkt inuti en HTML fil.
+
 Källa: *Egen bearbetning*
 
 React används dock endast för att visa information, inte hantera resten av webbapplikationens logik.
 Andra programspråk såsom ASP.NET, PHP etc. kan hantera båda fronter. Informationen som skickas emellan kan vara
 via en MDX fil eller servas via ett API som hämtar från en databas. Med React är det vanligast med ett API
 skrivet i JavaScript eller TypeScript som hanterar allt bakom kulisserna.
+
 Källa: *[Quora m.fl](https://www.quora.com/Is-ReactJS-suitable-for-dynamic-websites)*
 
 Men hur väljer man en över den andra? Statisk eller dynamisk webbsida?
@@ -74,6 +77,7 @@ En statisk webbsida är perfekt om du har ett förbestämt antal sidor eller dä
 Dynamiska webbsidor är alltid trevligare att titta på och ökar upplevelsen för användaren men är som sagt krångligare då
 då troligen måste använda dig av mer komplex verktyg, organisera kod mm. Uppsidan är att i slutändan blir det lättare att lägga till
 nytt innehåll och upprätthålla webbapplikationen.
+
 Källa: *[Amelia](https://wpamelia.com/static-vs-dynamic-website/)*
 
 <!-- AUTO-GENERATED-CONTENT:END -->
