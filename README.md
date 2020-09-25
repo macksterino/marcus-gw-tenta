@@ -9,7 +9,11 @@
 - Git Bash (if using Git)
 
 ## Using the Gatsby CLI to create a new site, specifying the hello-world starter:
-1. npm install -g gatsby-cli
+1.     
+    ```shell
+    # installing the Gatsby CLI
+    npm install -g gatsby-cli
+    ```
 2. 
     ```shell
     # create a new Gatsby site using the hello-world starter
@@ -22,7 +26,10 @@
     # running my project
     git clone my-new-project https://github.com/macksterino/marcus-gw-tenta && cd my-new-project && code .
     ```
-2. npm install
+2.     ```shell
+    # installing all the project dependencies
+    npm install
+    ```
 
 ## Start developing
 
