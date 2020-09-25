@@ -10,43 +10,43 @@
 
 ## Using the Gatsby CLI to create a new site, specifying the hello-world starter:
 1.     
-    ```shell
-    # installing the Gatsby CLI
-    npm install -g gatsby-cli
-    ```
+```shell
+# installing the Gatsby CLI
+npm install -g gatsby-cli
+```
 2. 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+```shell
+# create a new Gatsby site using the hello-world starter
+gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
 
 ## Using the Git CLI to clone a site, specifying my project:
 1. 
-    ```shell
-    # running my project
-    git clone my-new-project https://github.com/macksterino/marcus-gw-tenta && cd my-new-project && code .
-    ```
+```shell
+# running my project
+git clone my-new-project https://github.com/macksterino/marcus-gw-tenta && cd my-new-project && code .
+```
 2.  
-    ```shell
-    # installing all the project dependencies
-    npm install
-    ```
+```shell
+# installing all the project dependencies
+npm install
+```
 
 ## Start developing
 
-    Navigate into your new site’s directory and start it up.
+Navigate into your new site’s directory and start it up.
 
-  ```shell
-  cd my-new-project/
-  gatsby develop
-  ```
+```shell
+cd my-new-project/
+gatsby develop
+```
 
-    OR
+OR
 
-  ```shell
-  cd my-new-project/
-  npm run develop
-  ```
+```shell
+cd my-new-project/
+npm run develop
+```
 
 ## 🎓 Tenta
 - **Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser**
