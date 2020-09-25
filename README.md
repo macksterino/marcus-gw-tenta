@@ -26,7 +26,8 @@
     # running my project
     git clone my-new-project https://github.com/macksterino/marcus-gw-tenta && cd my-new-project && code .
     ```
-2.     ```shell
+2.  
+    ```shell
     # installing all the project dependencies
     npm install
     ```
