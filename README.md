@@ -28,17 +28,17 @@
 
     Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-new-project/
-    gatsby develop
-    ```
+  ```shell
+  cd my-new-project/
+  gatsby develop
+  ```
 
     OR
 
-    ```shell
-    cd my-new-project/
-    npm run develop
-    ```
+  ```shell
+  cd my-new-project/
+  npm run develop
+  ```
 
 ## 🎓 Tenta
 - **Se samband och värdera alternativa lösningar vid val av programmeringsteknik vid utveckling av dynamiska webbplatser**
